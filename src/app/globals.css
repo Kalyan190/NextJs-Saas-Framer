@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+   .btn {
+      @apply bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center
+   }
+   .btn-primary {
+      @apply bg-black text-white;
+   }
+   .btn-text{
+      @apply text-black bg-transparent 
+   }
+   .logo-ticker-image{
+      @apply h-8 w-auto
+   }
+   .card{
+      @apply p-10 border border-[#F1F1F1] rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full
+   }
+}
